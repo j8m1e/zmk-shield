@@ -1,0 +1,12 @@
+file_format: "1"
+id: miami
+name: Miami Rev. 0
+type: shield
+url: https://github.com/j8m1e/zmk-shield.git
+requires: [nice_nano_v2]
+features:
+  - keys
+  - encoder
+siblings:
+  - miami_left
+  - miami_right
