@@ -1,4 +1,4 @@
-#include "miami.dtsi"
+#include "quefrency.dtsi"
 
 / {
     /* This kscan is for the 60% left half without macro keys the
