@@ -7,7 +7,7 @@
 #include "miami.dtsi"
 
 &default_transform {
-    col-offset = <9>;
+    col-offset = <7>;
 };
 
 / {
