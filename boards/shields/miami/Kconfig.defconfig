@@ -8,6 +8,14 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+
+if SHIELD_MIAMI_RIGHT
+
+config CONFIG_ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
 if SHIELD_MIAMI_LEFT || SHIELD_MIAMI_RIGHT
 
 config ZMK_SPLIT
