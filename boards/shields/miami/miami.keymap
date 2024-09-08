@@ -10,14 +10,14 @@
 // ----------------------------------------------      -----------------------------------------------------
 // |F1  |  FN  | ESC  |  1   |  2  |  3   |  4  |  5  |  6  |      |  7  |  8  |  9  |  0  |  -  |  =  |  BKSPC |  `   |
 // |F3  |  F4  | TAB   |  Q   |  W  |  E   |  R  |  T  |        |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |  \  | DEL  |
-// |F5  |  F6  | LCTRL  |  A   |  S  |  D   |  F  |  G  |        |  H  |  J  |  K  |  L  |  ;  |  '  |   ENTER  | PGUP |
+// |F5  |  F6  | CAPSLCK  |  A   |  S  |  D   |  F  |  G  |        |  H  |  J  |  K  |  L  |  ;  |  '  |   ENTER  | PGUP |
 // |F7  |  F8  | SHIFT   |  Z   |  X  |  C  |  V   |  B  |        |  N  |  M  |  ,  |  .  |  /  |  RSHFT  |  UP | PGDN |
-// |F9  |  F10 | LCTRL   | LGUI | LALT |   SPACE   | FN  |        |    SPACE    | RALT | FN | RCTRL | LFT | DWN | RGHT |
+// |F9  |  F10 | LCTRL   | LGUI | LALT | FN  |     SPACE   |        |    SPACE    | RALT | FN | RCTRL | LFT | DWN | RGHT |
 // -------------------------------------------        ------------------------------------------------------
 
         default_layer {
             bindings = <
-    &kp F1  &mo 1   &kp ESC   &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 /**/ &kp N7    &kp N8   &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC &kp GRAVE
+    &sys_reset  &bootloader   &kp ESC   &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 /**/ &sys_reset    &bootloader   &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC &kp GRAVE
     &kp F3  &kp F4  &kp TAB   &kp Q    &kp W    &kp E     &kp R  &kp T         /**/ &kp Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT &kp BSLH &kp HOME
     &kp F5  &kp F6  &kp CAPS  &kp A    &kp S    &kp D     &kp F  &kp G         /**/ &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT   &kp RET  &kp PG_UP
     &kp F7  &kp F8  &kp LSHFT &kp Z    &kp X    &kp C     &kp V  &kp B         /**/ &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP   &kp PG_DN
