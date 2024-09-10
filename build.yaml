@@ -20,7 +20,10 @@
 include:
   - board: nice_nano_v2
     shield: miami_left
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: miami_right
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: settings_reset
+    snippet: zmk-usb-logging
