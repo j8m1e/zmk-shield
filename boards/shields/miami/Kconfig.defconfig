@@ -12,7 +12,7 @@ endif
 if SHIELD_MIAMI_RIGHT
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default n
+    default y
 
 endif
 
