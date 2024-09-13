@@ -1,13 +1,22 @@
 if SHIELD_MIAMI_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Miami"
+    default "Miami_left"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
+if SHIELD_MIAMI_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Miami_right"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
 
 if SHIELD_MIAMI_LEFT || SHIELD_MIAMI_RIGHT
 
